@@ -1,0 +1,373 @@
+<VRTDataset rasterXSize="10000" rasterYSize="10000">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["ETRS89 / UTM zone 32N",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",9],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","25832"]]</SRS>
+  <GeoTransform>  3.6200000000000000e+05,  2.0000000000000001e-01,  0.0000000000000000e+00,  5.7165000000000000e+06,  0.0000000000000000e+00, -2.0000000000000001e-01</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">9</MDI>
+      <MDI key="STATISTICS_MAXIMUM">254</MDI>
+      <MDI key="STATISTICS_MEAN">101.07701724261</MDI>
+      <MDI key="STATISTICS_STDDEV">39.083690345551</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Red</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362000_5714500.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="0" yOff="7500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362000_5715000.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="0" yOff="5000" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362000_5715500.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="0" yOff="2500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362000_5716000.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362500_5714500.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="2500" yOff="7500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362500_5715000.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="2500" yOff="5000" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362500_5715500.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="2500" yOff="2500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362500_5716000.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="2500" yOff="0" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363000_5714500.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="5000" yOff="7500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363000_5715000.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="5000" yOff="5000" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363000_5715500.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="5000" yOff="2500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363000_5716000.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="5000" yOff="0" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363500_5714500.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="7500" yOff="7500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363500_5715000.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="7500" yOff="5000" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363500_5715500.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="7500" yOff="2500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363500_5716000.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="7500" yOff="0" xSize="2500" ySize="2500" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">16</MDI>
+      <MDI key="STATISTICS_MAXIMUM">253</MDI>
+      <MDI key="STATISTICS_MEAN">109.37014526694</MDI>
+      <MDI key="STATISTICS_STDDEV">31.218152400465</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Green</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362000_5714500.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="0" yOff="7500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362000_5715000.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="0" yOff="5000" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362000_5715500.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="0" yOff="2500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362000_5716000.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362500_5714500.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="2500" yOff="7500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362500_5715000.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="2500" yOff="5000" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362500_5715500.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="2500" yOff="2500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362500_5716000.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="2500" yOff="0" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363000_5714500.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="5000" yOff="7500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363000_5715000.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="5000" yOff="5000" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363000_5715500.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="5000" yOff="2500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363000_5716000.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="5000" yOff="0" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363500_5714500.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="7500" yOff="7500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363500_5715000.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="7500" yOff="5000" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363500_5715500.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="7500" yOff="2500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363500_5716000.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="7500" yOff="0" xSize="2500" ySize="2500" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">26</MDI>
+      <MDI key="STATISTICS_MAXIMUM">254</MDI>
+      <MDI key="STATISTICS_MEAN">95.661511922195</MDI>
+      <MDI key="STATISTICS_STDDEV">29.385443895074</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Blue</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362000_5714500.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="0" yOff="7500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362000_5715000.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="0" yOff="5000" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362000_5715500.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="0" yOff="2500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362000_5716000.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362500_5714500.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="2500" yOff="7500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362500_5715000.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="2500" yOff="5000" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362500_5715500.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="2500" yOff="2500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">362500_5716000.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="2500" yOff="0" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363000_5714500.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="5000" yOff="7500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363000_5715000.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="5000" yOff="5000" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363000_5715500.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="5000" yOff="2500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363000_5716000.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="5000" yOff="0" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363500_5714500.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="7500" yOff="7500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363500_5715000.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="7500" yOff="5000" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363500_5715500.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="7500" yOff="2500" xSize="2500" ySize="2500" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">363500_5716000.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2500" RasterYSize="2500" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2500" ySize="2500" />
+      <DstRect xOff="7500" yOff="0" xSize="2500" ySize="2500" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
