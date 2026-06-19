@@ -17,13 +17,10 @@ config:
     config:
       tile_fetcher_configs:
         - package: 'aviary'
-          name: 'WMSFetcher'
+          name: 'VRTFetcher'
           config:
-            url: 'https://www.wms.nrw.de/geobasis/wms_nw_dop'
-            version: '1.3.0'
-            layer: 'nw_dop_rgb'
+            path: 'input/rgb.vrt'
             epsg_code: 25832
-            response_format: 'image/png'
             channel_names:
               - 'r'
               - 'g'
@@ -33,7 +30,7 @@ config:
         - package: 'aviary'
           name: 'GPKGFetcher'
           config:
-            path: 'building_footprints.gpkg'
+            path: 'input/building_footprints.gpkg'
             epsg_code: 25832
             channel_name: 'building_footprints'
             tile_size: 500
