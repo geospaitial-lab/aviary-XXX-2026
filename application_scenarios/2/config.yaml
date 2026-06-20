@@ -61,7 +61,7 @@ config:
             ground_sampling_distance: .2
             foreground_value: 1
             background_value: 0
-            dtype: 'bool'
+            dtype: 'uint8'
         - package: 'aviary'
           name: 'RasterExporter'
           config:
