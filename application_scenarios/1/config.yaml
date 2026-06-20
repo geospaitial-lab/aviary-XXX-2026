@@ -5,10 +5,10 @@ config:
 
   grid_config:
     bounding_box_coordinates:
-      - 362000
-      - 5714500
-      - 364000
-      - 5716500
+      - 362500
+      - 5715000
+      - 364500
+      - 5717000
     tile_size: 500
 
   tile_fetcher_config:
