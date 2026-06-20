@@ -5,8 +5,8 @@ config:
 
   grid_config:
     bounding_box_coordinates:
-      - 362000
-      - 5714500
+      - 362500
+      - 5715000
       - 364000
       - 5716500
     tile_size: 500
@@ -36,7 +36,7 @@ config:
             tile_size: 500
 
   tile_loader_config:
-    batch_size: 4
+    batch_size: 2
     max_num_threads: null
     num_prefetched_tiles: 1
 
