@@ -16,7 +16,7 @@ config:
           tile_size: 100
           epsg_code: 25832
           num_chunks: 500
-          chunk: 0
+          chunk: 93
 
         tile_fetcher_config:
           package: 'aviary'
