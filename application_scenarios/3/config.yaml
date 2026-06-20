@@ -38,7 +38,7 @@ config:
         tile_loader_config:
           batch_size: 2
           max_num_threads: null
-          num_prefetched_tiles: 1
+          num_prefetched_tiles: 0
 
         tiles_processor_config:
           package: 'aviary'
